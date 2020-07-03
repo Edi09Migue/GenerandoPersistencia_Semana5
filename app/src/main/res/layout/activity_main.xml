@@ -36,6 +36,8 @@
        app:titleTextColor="@color/colorTextoIconos"
            app:layout_collapseMode="pin">
 
+
+           <!--cambiar centerHorizontal por android:layout_marginRight="35dp"-->
            <TextView
                android:layout_width="wrap_content"
                android:layout_height="wrap_content"

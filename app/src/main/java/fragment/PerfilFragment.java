@@ -54,13 +54,22 @@ public class PerfilFragment extends Fragment {
 
     //metodo para llenar la lista
     public void inicializarListaMacotas(){
+
+      /*   mascotas = new ArrayList<Mascota>();
+        mascotas.add(new Mascota(R.drawable.noe1,5));
+        mascotas.add(new Mascota( R.drawable.noe2,3));
+        mascotas.add(new Mascota(R.drawable.noe3,2));
+        mascotas.add(new Mascota(R.drawable.noe4,4));
+        mascotas.add(new Mascota( R.drawable.noe5,1));
+        mascotas.add(new Mascota( R.drawable.noe6,3));*/
+
         mascotas = new ArrayList<Mascota>();
-        mascotas.add(new Mascota(R.drawable.noe1,5,R.drawable.icons8_hueso_del_perro_101));
-        mascotas.add(new Mascota( R.drawable.noe2,3,R.drawable.icons8_hueso_del_perro_101));
-        mascotas.add(new Mascota(R.drawable.noe3,2,R.drawable.icons8_hueso_del_perro_101));
-        mascotas.add(new Mascota(R.drawable.noe4,4,R.drawable.icons8_hueso_del_perro_101));
-        mascotas.add(new Mascota( R.drawable.noe5,1,R.drawable.icons8_hueso_del_perro_101));
-        mascotas.add(new Mascota( R.drawable.noe6,3,R.drawable.icons8_hueso_del_perro_101));
+        mascotas.add(new Mascota(R.drawable.noe1));
+        mascotas.add(new Mascota( R.drawable.noe2));
+        mascotas.add(new Mascota(R.drawable.noe3));
+        mascotas.add(new Mascota(R.drawable.noe4));
+        mascotas.add(new Mascota( R.drawable.noe5));
+        mascotas.add(new Mascota( R.drawable.noe6));
 
     }
 

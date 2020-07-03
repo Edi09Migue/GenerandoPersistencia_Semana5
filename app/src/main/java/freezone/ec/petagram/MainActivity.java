@@ -129,7 +129,7 @@ public class MainActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item){
         switch (item.getItemId()){
             case R.id.icon_estrella:
-                Intent i = new Intent(this,MainActivity.class);
+                Intent i = new Intent(this,Main2Activity.class);
                 startActivity(i);
                 break;
 

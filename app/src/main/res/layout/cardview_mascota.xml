@@ -30,13 +30,12 @@ dp        <ImageView
             android:layout_height="match_parent"
             android:orientation="horizontal">
 
-
-            <ImageView
+            <!--Boton Likes-->
+            <ImageButton
                 android:id="@+id/imgIcono1CV"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/icons8_hueso_del_perro_100"
-                android:layout_gravity="center"
+                android:background="@drawable/icons8_hueso_del_perro_100"
                 />
 
 
@@ -58,6 +57,7 @@ dp        <ImageView
                 android:src="@drawable/icons8_hueso_del_perro_101"
                 android:layout_marginLeft="@dimen/separación"/>
 
+            <!--Numero de likes-->
             <TextView
                 android:id="@+id/tvNumeroCV"
                 android:layout_width="wrap_content"
@@ -66,9 +66,7 @@ dp        <ImageView
                 android:gravity="right"
                 android:textSize="@dimen/nombre_cardview"
                 android:textStyle="bold"
-                android:text="@string/pnumero"
-
-                />
+                android:text="numero" />
 
         </LinearLayout>
 

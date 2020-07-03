@@ -15,7 +15,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
-        //ojo para que funcione el menu
+        <!-- ojo para que funcione el menu-->
         <activity android:name=".AcercaDe"></activity>
         <activity android:name=".Contacto" />
 
